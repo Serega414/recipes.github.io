@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Рецепты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffcc00, #222);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .recipe-card {
+            background: white;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .recipe-card {
+                width: 95%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="recipe-card">
+        <h2>Суп с колбасой</h2>
+        <h3>Ингредиенты:</h3>
+        <ul>
+            <li>Вода — 2 л</li>
+            <li>Колбаса (варёная или копчёная) — 200–300 г</li>
+            <li>Картофель — 3 шт.</li>
+            <li>Морковь — 1 шт.</li>
+            <li>Лук — 1 шт.</li>
+            <li>Лавровый лист — 1 шт.</li>
+            <li>Растительное масло — 1–2 ст. ложки</li>
+            <li>Соль, перец — по вкусу</li>
+            <li>Зелень — для подачи</li>
+        </ul>
+        <h3>Приготовление:</h3>
+        <ol>
+            <li>Обжарить лук и морковь в масле до золотистого цвета.</li>
+            <li>Добавить нарезанную колбасу, подрумянить.</li>
+            <li>Сварить картофель с лавровым листом 10 минут.</li>
+            <li>Добавить зажарку с колбасой, посолить и поперчить.</li>
+            <li>Всыпать зелень, дать настояться 5 минут.</li>
+        </ol>
+    </div>
+
+    <div class="recipe-card">
+        <h2>Рецепт 2</h2>
+        <p>Описание второго рецепта...</p>
+    </div>
+
+    <div class="recipe-card">
+        <h2>Рецепт 3</h2>
+        <p>Описание третьего рецепта...</p>
+    </div>
+
+    <!-- Добавить еще 7 карточек -->
+</body>
+
+</html>
