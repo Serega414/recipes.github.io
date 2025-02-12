@@ -96,9 +96,9 @@ ol {
     }
 
     .recipe-card {
+         /* Вот стили для ipad 4*/
         width: 100%;
         max-width: 700px;
-        background-color: red;
     }
 }
 
