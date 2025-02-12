@@ -56,14 +56,13 @@ ol {
 }
 
 @media screen and (max-width: 1024px) {
-    /* Стили для iPad 4 в горизонтальном режиме */
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 20px;
 }
 
 @media (max-width: 955px) {
     .recipe-card {
-        width: 100%;
-        max-width: 700px;
-        margin-bottom: 20px;
     }
 }
 
