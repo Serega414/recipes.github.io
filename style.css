@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffcc00, #222);
+    min-height: 100vh;
+}
+
+.recipe-card_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Стили для iPad 4 в горизонтальном режиме */
+}
+
+@media (max-width: 955px) {
+    .recipe-card {
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .recipe-card_wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .recipe-card {
+        width: 95%;
+        padding: 15px;
+    }
+}
